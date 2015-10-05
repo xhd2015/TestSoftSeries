@@ -13,8 +13,5 @@ void printArr(int arr[],int n);
 void swap(int *a,int *b);
 
 
-}
-
-
 #endif	//ARRAYS_H
 #endif	//INCLUDE_TEST_SOFT_SERIES
