@@ -1,7 +1,6 @@
-#include<arrays.h>
 #include<ctime>
 #include<cstdlib>
-
+#include<cstdio>
 void swap(int *a,int *b)
 {
 	if(*a==*b)return;
@@ -10,12 +9,12 @@ void swap(int *a,int *b)
 
 void printArr(int arr[],int n)
 {
-for(int i=0;i<n;++i)
-{
-	printf("%d ",arr[i]);
+	for(int i=0;i<n;++i)
+	{
+		printf("%d ",arr[i]);
 
-}
-printf("\n");
+	}
+	printf("\n");
 }
 
 int *make_random_arr(size_t len,int low,int up)

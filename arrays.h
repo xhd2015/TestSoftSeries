@@ -1,9 +1,9 @@
 
-#ifdef INCLUDE_TEST_SOFT_SERIES
+//#ifdef INCLUDE_TEST_SOFT_SERIES
 #ifndef ARRAYS_H
 #define ARRAYS_H
 
-
+#include<cstdlib>
 
 #ifndef GET_ARR_SIZE
 #define GET_ARR_SIZE
@@ -30,4 +30,4 @@ void swap(int *a,int *b);
 int *make_random_arr(size_t len,int low,int up);
 
 #endif	//ARRAYS_H
-#endif	//INCLUDE_TEST_SOFT_SERIES
+//#endif	//INCLUDE_TEST_SOFT_SERIES
