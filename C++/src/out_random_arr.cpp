@@ -30,6 +30,11 @@ int main(int argc,char *argv[])
 			return 1;
 		}
 	}
+	if(len<=0)
+	{
+		fprintf(stderr,"Please speciefy a number(>0)");
+		return 1;
+	}
 	if(init!=-65535)
 	{
 
@@ -37,7 +42,6 @@ int main(int argc,char *argv[])
 		--len;
 	}
 	out_random_arr(len,low,up);
-	
 
 	return 0;
 }
