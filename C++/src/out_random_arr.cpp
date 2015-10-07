@@ -32,7 +32,7 @@ int main(int argc,char *argv[])
 	}
 	if(len<=0)
 	{
-		fprintf(stderr,"Please speciefy a number(>0)");
+		fprintf(stderr,"array size error:please speciefy a size > 0");
 		return 1;
 	}
 	if(init!=-65535)
